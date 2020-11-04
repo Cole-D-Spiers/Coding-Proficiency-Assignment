@@ -24,7 +24,7 @@ void setup()
 
 void loop()
 {
-  randNumber = random(0, 255);                                             
+  randNumber = random(1, 21);                                             
   Serial.println(randNumber);                                               
   analogWrite(analogOutPin, randNumber);                                 
   delay(300);
